@@ -1,0 +1,69 @@
+/* Card Grid */
+.metrics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+}
+.card {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+    padding: 16px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Lower Section Grid */
+.lower-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 24px;
+    min-height: 450px;
+}
+
+/* Auth Modal Styles */
+.auth-screen {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0,0,0,0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+.auth-box {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px;
+    padding: 32px;
+}
+.input-group {
+    margin-bottom: 16px;
+}
+.input-group input {
+    width: 100%;
+    background-color: var(--bg-terminal);
+    border: 1px solid var(--border-color);
+    padding: 10px;
+    border-radius: 8px;
+    color: var(--text-white);
+    margin-top: 6px;
+}
+.btn {
+    width: 100%;
+    background-color: var(--color-emerald);
+    color: #000;
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.btn-google {
+    background-color: #0f172a;
+    color: white;
+    border: 1px solid var(--border-color);
+}

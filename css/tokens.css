@@ -1,0 +1,13 @@
+:root {
+    --bg-main: #0b0f19;
+    --bg-card: #0d1321;
+    --bg-terminal: #05070f;
+    --border-color: #1e293b;
+    --text-main: #cbd5e1;
+    --text-white: #ffffff;
+    --text-muted: #64748b;
+    --color-emerald: #10b981;
+    --color-rose: #f43f5e;
+    --color-amber: #f59e0b;
+    --color-cyan: #06b6d4;
+}
